@@ -1,0 +1,8 @@
+body {
+  font-family: 'montserrat', sans-serif;
+}
+
+.section__title {
+  @include font-style($weight: 700, $size: 22px, $height: 27px);
+  margin-bottom: 12px;
+}

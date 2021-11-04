@@ -1,0 +1,15 @@
+.about-me-section {
+  max-width: 400px;
+}
+
+.about-me__title {
+  color: $title;
+  @include font-style($weight: 700, $height: 17px);
+}
+
+.about-me__title--main {
+  color: $title;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  @include font-style($weight: 700, $size: 45px, $height: 55px);
+}

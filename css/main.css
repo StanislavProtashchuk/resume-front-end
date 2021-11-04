@@ -1,0 +1,72 @@
+body {
+  font-family: 'montserrat', sans-serif;
+}
+
+.section__title {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.22727;
+  margin-bottom: 12px;
+}
+
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  font-style: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 105px 88px;
+}
+
+.section {
+  max-width: 525px;
+  padding-top: 45px;
+}
+
+.about-me-section {
+  max-width: 400px;
+}
+
+.about-me__title {
+  color: #000000;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.21429;
+}
+
+.about-me__title--main {
+  color: #000000;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 1.22222;
+}
+/*# sourceMappingURL=main.css.map */
