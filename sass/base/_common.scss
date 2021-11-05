@@ -6,3 +6,40 @@ body {
   @include font-style($weight: 700, $size: 22px, $height: 27px);
   margin-bottom: 12px;
 }
+
+.section__sub-title {
+  @include font-style($weight: 700, $size: 16px, $height: 20px);
+  margin-top: 16px;
+  margin-bottom: 11px;
+}
+
+.section__sub-title--orange {
+  color: $orange;
+}
+
+.text {
+  @include font-style;
+  color: $text;
+}
+
+.date {
+  display: block;
+  @include font-style($size: 12px, $height: 15px);
+  color: #a8a8a8;
+  margin-bottom: 8px;
+}
+
+.work__item {
+  display: inline-flex;
+  align-items: center;
+}
+
+.work__item::before {
+  display: block;
+  content: '';
+  width: 10px;
+  height: 10px;
+  background-color: navy;
+  border-radius: 50%;
+  margin-right: 10px;
+}

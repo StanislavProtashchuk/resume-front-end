@@ -1,0 +1,13 @@
+.projects__link {
+  @include font-style($weight: 700);
+  color: $title;
+
+  &:hover,
+  &:focus {
+    color: $orange;
+  }
+}
+
+.projects__link:hover .resume {
+  color: $title;
+}
