@@ -1,4 +1,58 @@
 .sidebar {
-  width: 370px;
+  width: 480px;
   background-color: #1e2939;
+}
+
+.sidebar__img {
+  display: block;
+  margin-top: 40px;
+}
+
+.sidebar__list {
+  margin-left: 40px;
+  margin-top: 50px;
+}
+
+.sidebar__item {
+  display: flex;
+  align-items: baseline;
+}
+
+.sidebar__item--contact {
+  @include font-style($weight: 700);
+  color: $white;
+}
+
+.sidebar__link {
+  @include font-style;
+  margin-left: 10px;
+  color: $text;
+}
+
+.sidebar__link:hover,
+.sidebar__link:focus {
+  color: $white;
+}
+
+.sidebar__title {
+  @include font-style($weight: 700, $size: 22px, $height: 27px);
+  color: $white;
+  margin-bottom: 8px;
+}
+
+.sidebar__item--scills {
+  display: flex;
+  align-items: center;
+  @include font-style;
+  color: $white;
+}
+
+.sidebar__item--scills::before {
+  content: '';
+  display: block;
+  margin-right: 8px;
+  width: 5px;
+  height: 5px;
+  background-color: $orange;
+  border-radius: 50%;
 }

@@ -28,18 +28,3 @@ body {
   color: #a8a8a8;
   margin-bottom: 8px;
 }
-
-.work__item {
-  display: inline-flex;
-  align-items: center;
-}
-
-.work__item::before {
-  display: block;
-  content: '';
-  width: 10px;
-  height: 10px;
-  background-color: navy;
-  border-radius: 50%;
-  margin-right: 10px;
-}
