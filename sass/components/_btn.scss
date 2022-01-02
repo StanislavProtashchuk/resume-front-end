@@ -1,8 +1,9 @@
-.btn__eng {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-
+.lang__wrapper {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  top: -80px;
+  left: 80px;
   color: $text;
 
   @include font-style($weight: 700, $height: 17px);
@@ -10,12 +11,16 @@
   &:hover {
     color: $orange;
   }
+}
+
+.btn__wrapper {
+  position: relative;
 }
 
 .btn__ru {
-  position: absolute;
-  top: 20px;
-  right: -50px;
+  position: relative;
+  top: 0px;
+  left: 50px;
 
   color: $text;
 
@@ -26,6 +31,29 @@
   }
 }
 
-.btn__eng:hover .btn__ru {
-  transform: translateY(-55px);
+.btn__ua {
+  position: relative;
+  top: -17px;
+  left: 50px;
+
+  color: $text;
+
+  @include font-style($weight: 700, $height: 17px);
+
+  &:hover {
+    color: $orange;
+  }
+}
+
+.link__wrapper {
+  position: absolute;
+  top: 100%;
+}
+
+.lang__wrapper:hover .btn__ru {
+  transform: translateX(-90px);
+}
+
+.lang__wrapper:hover .btn__ua {
+  transform: translateX(-114px);
 }
