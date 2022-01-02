@@ -1,0 +1,31 @@
+.btn__eng {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+
+  color: $text;
+
+  @include font-style($weight: 700, $height: 17px);
+
+  &:hover {
+    color: $orange;
+  }
+}
+
+.btn__ru {
+  position: absolute;
+  top: 20px;
+  right: -50px;
+
+  color: $text;
+
+  @include font-style($weight: 700, $height: 17px);
+
+  &:hover {
+    color: $orange;
+  }
+}
+
+.btn__eng:hover .btn__ru {
+  transform: translateY(-55px);
+}

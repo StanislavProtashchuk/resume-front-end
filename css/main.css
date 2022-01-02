@@ -76,6 +76,7 @@ img {
 }
 
 .main-container {
+  position: relative;
   width: 100%;
   margin: 0 auto;
   padding: 105px 88px;
@@ -96,6 +97,42 @@ img {
 
 .resume {
   color: #fb6d3a;
+}
+
+.btn__eng {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: #595959;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.21429;
+}
+
+.btn__eng:hover {
+  color: #fb6d3a;
+}
+
+.hidden__btn {
+  position: relative;
+}
+
+.btn__ru {
+  position: absolute;
+  top: 20px;
+  right: -50px;
+  color: #595959;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.21429;
+}
+
+.btn__ru:hover {
+  color: #fb6d3a;
+}
+
+.btn__eng:hover .btn__ru {
+  transform: translateY(-55px);
 }
 
 .about-me__title {
