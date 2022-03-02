@@ -13,6 +13,11 @@
   margin-top: 50px;
 }
 
+.sidebar__location {
+  @include font-style;
+  color: $white;
+}
+
 .sidebar__item {
   display: flex;
   align-items: baseline;

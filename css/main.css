@@ -104,6 +104,10 @@ img {
   color: #d41443;
 }
 
+.smooth {
+  color: #fcb875;
+}
+
 .lang__wrapper {
   position: relative;
   display: flex;
@@ -282,6 +286,16 @@ img {
   box-shadow: 0px 4px 4px;
 }
 
+.hobby {
+  display: flex;
+  align-items: center;
+}
+
+.img-hobby {
+  margin-right: 10px;
+  height: 30px;
+}
+
 .sidebar {
   width: 480px;
   background-color: #1e2939;
@@ -295,6 +309,13 @@ img {
 .sidebar__list {
   margin-left: 40px;
   margin-top: 50px;
+}
+
+.sidebar__location {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71429;
+  color: #ffffff;
 }
 
 .sidebar__item {
