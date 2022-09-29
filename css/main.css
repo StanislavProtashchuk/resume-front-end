@@ -25,7 +25,7 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71429;
-  color: #595959;
+  color: #9b9b9b;
 }
 
 .date {
@@ -122,7 +122,7 @@ img {
   justify-content: flex-end;
   top: -80px;
   left: 80px;
-  color: #595959;
+  color: #9b9b9b;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.21429;
@@ -140,7 +140,7 @@ img {
   position: relative;
   top: 0px;
   left: 50px;
-  color: #595959;
+  color: #9b9b9b;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.21429;
@@ -154,7 +154,7 @@ img {
   position: relative;
   top: -17px;
   left: 50px;
-  color: #595959;
+  color: #9b9b9b;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.21429;
@@ -219,8 +219,8 @@ img {
   content: '';
   width: 5px;
   height: 5px;
-  background-color: #595959;
-  border: 1px solid #595959;
+  background-color: #9b9b9b;
+  border: 1px solid #9b9b9b;
   border-radius: 50%;
   margin-right: 10px;
 }
@@ -306,7 +306,7 @@ img {
 
 .sidebar {
   width: 480px;
-  background-color: #1e2939;
+  background-color: #2a1409;
 }
 
 .sidebar__img {
@@ -343,7 +343,7 @@ img {
   font-size: 14px;
   line-height: 1.71429;
   margin-left: 10px;
-  color: #595959;
+  color: #9b9b9b;
 }
 
 .sidebar__link:hover,
